@@ -1,0 +1,21 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="custom-element">
+
+  <template>
+    <p>{{foo}}</p>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'custom-element',
+      properties: {
+        foo: {
+          type: String,
+          value: "Default"
+        }
+      }
+    });
+  </script>
+
+</dom-module>
